@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+  
+  #printable-scorecard {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    border: 2px solid #b45309 !important;
+    box-shadow: none !important;
+    margin: 0 auto !important;
+  }
+}
+

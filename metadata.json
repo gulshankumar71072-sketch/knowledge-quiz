@@ -1,0 +1,6 @@
+{
+  "name": "Ultimate Knowledge Quiz",
+  "description": "Interactive multi-category trivia and knowledge quiz platform powered by Gemini 3.1 Pro with High Thinking mode, deep conceptual explanations, and AI quiz generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
